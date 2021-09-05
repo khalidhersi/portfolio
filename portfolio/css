@@ -1,0 +1,65 @@
+
+body{
+    background-image: url(./media/custom_background_3_by_zulo317_d2t77zf-fullview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    position: absolute;
+}
+
+.container {
+    height: 1120px;
+    display: grid;
+    grid-template: 0.5fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas: 'nav     nav     nav'
+                         'welcome welcome welcome'
+                         'left    right   main';
+}
+
+
+nav {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-size: 1.5rem;
+    padding: 10px;
+    position:relative;
+    border-radius: 4em;
+    grid-area: nav;
+}
+
+
+li {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0 10px;
+    color: black;
+    display: inline;
+    margin: 6.5em;
+    background-color: rgba(189, 189, 189, 0.733);
+    border-radius: 20px;
+}
+
+a {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.welcome {
+    grid-area: welcome;
+}
+
+main {
+    display: inline-block;
+    width: 400px;
+    margin: 2rem;
+    padding: 40px;
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 4em;
+    opacity: 0.8;
+    grid-area: main;
+    font-size: 1.2em;
+    opacity: 1;
+    box-sizing: border-box;
+}

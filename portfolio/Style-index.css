@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html{
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0%;
+}
+
+.background{
+    background-image: url('./media/istockphoto-1202559909-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: inline-flex;
+    width: 100%;
+    margin: 0 1em;
+}
+
+ul{
+    background-color: black;
+    width: 100%;
+    padding: 0.1em;
+    margin: 1em;
+    border: 0.1em solid white;
+    border-radius: 1.5em;
+}
+
+li{
+    color: white;
+    display: inline-flex;
+    padding: 0.8em;
+    margin: 0 7em;
+    font-size: 1.2em;
+}
+
+li:hover {
+    color: rgb(126, 126, 126);
+}
+
+.welcome{
+    font-size: 1.75em;
+    justify-content: center;
+    margin-top: 7.5em;
+}
+
+.welcome h1, .welcome p{
+    margin: 0.25em;
+    padding: 0.25em;
+    margin-bottom: 1em;
+}
+
